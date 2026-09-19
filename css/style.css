@@ -36,6 +36,9 @@ body {
   background-color: rgb(50, 194, 194);
 }
 
+.botones :hover {
+  background-color: #203cdf;
+}
 .greetings {
   font-size: 7rem;
   font-weight: 900;
@@ -75,6 +78,7 @@ body {
 }
 
 .description {
+  color: rgba(255, 255, 255, 0.842);
   font-size: 1.5rem;
   margin-bottom: 20px;
 }

@@ -4,6 +4,7 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
+  { text: "Espero que te guste", time: 10 },
   { text: "At the time", time: 15 },
   { text: "The whisper of birds", time: 18 },
   { text: "Lonely before the sun cried", time: 27 },
@@ -37,7 +38,7 @@ var lyricsData = [
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
+    (line) => time >= line.time && time < line.time + 6,
   );
 
   if (currentLine) {

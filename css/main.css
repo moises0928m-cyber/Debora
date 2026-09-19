@@ -33,11 +33,10 @@ body {
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
-      font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      margin-bottom: 530px;
-      letter-spacing: 3px;
+    font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+    margin-bottom: 530px;
+    letter-spacing: 3px;
   }
-
 }
 .titulo {
   margin-bottom: 180px;
@@ -68,11 +67,8 @@ body {
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
-  background-image: radial-gradient(
-      ellipse at top,
-      transparent 0%,
-      var(--dark-color)
-    ),
+  background-image:
+    radial-gradient(ellipse at top, transparent 0%, var(--dark-color)),
     radial-gradient(
       ellipse at bottom,
       var(--dark-color),
@@ -111,13 +107,12 @@ body {
 
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
-.flowers {
-      font-size: 14px;
-      margin-bottom: 35%;
-      letter-spacing: 3px;
-      transform: scale(1.0);
-}
-
+  .flowers {
+    font-size: 14px;
+    margin-bottom: 35%;
+    letter-spacing: 3px;
+    transform: scale(1);
+  }
 }
 
 .flower {
@@ -292,7 +287,8 @@ body {
   width: 60%;
   height: 60%;
   border-radius: inherit;
-  background-image: repeating-linear-gradient(
+  background-image:
+    repeating-linear-gradient(
       135deg,
       rgba(0, 0, 0, 0.03) 0px,
       rgba(0, 0, 0, 0.03) 1px,
@@ -402,7 +398,8 @@ body {
 .flower__line {
   height: 55vmin;
   width: 1.5vmin;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to left,
       rgba(0, 0, 0, 0.2),
       transparent,
@@ -1002,11 +999,8 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(184deg, 97%, 58%, 0.2);
-  background-image: linear-gradient(
-      to bottom left,
-      transparent,
-      var(--dark-color)
-    ),
+  background-image:
+    linear-gradient(to bottom left, transparent, var(--dark-color)),
     linear-gradient(to bottom right, #159faa 50%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(
     to bottom right,
@@ -1065,11 +1059,8 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(184deg, 97%, 58%, 0.2);
-  background-image: linear-gradient(
-      to bottom left,
-      transparent,
-      var(--dark-color) 98%
-    ),
+  background-image:
+    linear-gradient(to bottom left, transparent, var(--dark-color) 98%),
     linear-gradient(to bottom right, #23f0ff 45%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(
     135deg,
@@ -1608,16 +1599,17 @@ body {
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
 
-
 /* Reset de estilos básicos */
-body, h1, p {
+body,
+h1,
+p {
   margin: 0;
   padding: 0;
 }
 
 /* Estilos generales */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f7f7f7;
   color: #333;
 }
@@ -1638,21 +1630,21 @@ h1 {
 @media screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
   h1 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   /* Estilos para pantallas medianas */
   h1 {
-      font-size: 1.8em;
+    font-size: 1.8em;
   }
 }
 
 @media screen and (min-width: 1025px) {
   /* Estilos para pantallas grandes */
   h1 {
-      font-size: 2em;
+    font-size: 2em;
   }
 }
 
