@@ -25,10 +25,26 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 20%;
-  z-index: 1;
+
+  /* SUBE las letras */
+  bottom: 52%;
+
+  /* Para que el texto quede centrado */
+  width: 90%;
+  text-align: center;
+
+  z-index: 50;
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+
+  /* Hace que se lea mejor sobre las flores */
+  text-shadow:
+    2px 2px 4px black,
+    -2px -2px 4px black,
+    0 0 8px rgba(0, 0, 0, 0.8);
+
+  transition: opacity 0.5s ease-in-out;
 }
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
